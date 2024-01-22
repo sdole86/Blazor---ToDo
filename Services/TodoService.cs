@@ -8,7 +8,10 @@
         {
             _toDoItems = new List<ToDoItem> {
                 new("Wash Clothes"),
-                new("Clean Desk")
+                new("Clean Desk"),
+                new("Wash Dishes", false),
+                new("Clean Garage", true),
+                new("Clean Room", true),
             };
         }
 

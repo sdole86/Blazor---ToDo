@@ -28,3 +28,4 @@ C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\refint\B
 C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.pdb
 C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.genruntimeconfig.cache
 C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\ref\Blazor - ToDo.dll
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.sourcelink.json
