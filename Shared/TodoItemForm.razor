@@ -1,0 +1,37 @@
+﻿@using Blazor___ToDo.Services;
+@inject ITodoService _todoService;
+
+<EditForm Model="@NewItem" OnSubmit="@ItemAdded">
+    <div style="display:flex; align-items: center; width: 400px">
+        <div style="margin-right:10px">Text:</div>
+        <InputText @bind-Value="NewItem.Text" class="form-control" style="margin-right:10px" id="Item"/>
+        <button type="submit" class="btn btn-primary" style="margin-right: 10px; display: inline-flex; align-items: center;">
+            <span class="bi bi-plus" style="margin-right: 5px;"></span> Add
+        </button>
+        <button type="reset" class="btn btn-secondary" style="display: inline-flex; align-items: center;">
+            <i class="bi bi-x" style="margin-right: 5px;"></i> Clear
+        </button>
+
+
+
+    </div>
+</EditForm>
+
+@code {
+    [Parameter]
+    public required Action OnItemAdded { get; set; }
+
+    private ToDoItem NewItem = new ToDoItem("");
+
+    public void ItemAdded()
+    {
+        var newItem = new ToDoItem(NewItem.Text);
+        NewItem.Text = "";
+        _todoService.Add(newItem);
+
+        if (OnItemAdded != null)
+        {
+            OnItemAdded();
+        }
+    }
+}

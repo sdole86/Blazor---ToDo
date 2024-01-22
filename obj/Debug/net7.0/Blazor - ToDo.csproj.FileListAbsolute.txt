@@ -1,0 +1,30 @@
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\appsettings.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\Blazor - ToDo.staticwebassets.runtime.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\Blazor - ToDo.exe
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\Blazor - ToDo.deps.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\Blazor - ToDo.runtimeconfig.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\Blazor - ToDo.dll
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\bin\Debug\net7.0\Blazor - ToDo.pdb
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.AssemblyInfoInputs.cache
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.AssemblyInfo.cs
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.csproj.CoreCompileInputs.cache
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.RazorAssemblyInfo.cache
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.RazorAssemblyInfo.cs
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\staticwebassets\msbuild.Blazor - ToDo.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\staticwebassets\msbuild.build.Blazor - ToDo.props
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Blazor - ToDo.props
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Blazor - ToDo.props
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\scopedcss\bundle\Blazor - ToDo.styles.css
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\scopedcss\projectbundle\Blazor - ToDo.bundle.scp.css
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.dll
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\refint\Blazor - ToDo.dll
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.pdb
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\Blazor - ToDo.genruntimeconfig.cache
+C:\Users\samd\source\repos\Blazor - ToDo\Blazor - ToDo\obj\Debug\net7.0\ref\Blazor - ToDo.dll

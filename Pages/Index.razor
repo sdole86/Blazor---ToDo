@@ -1,0 +1,113 @@
+﻿@page "/"
+@using Blazor___ToDo.Services;
+@inject ITodoService _todoService;
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<PageTitle>To-Do List</PageTitle>
+<div class="jumbotron text-center p-3 mt-4 mx-auto" style="max-width: 700px;">
+    <h2 class="mb-4">Blazor Server App: To-Do List</h2>
+</div>
+
+
+<div class="p-3 mt-4 mx-auto" style="max-width:700px;">
+    <h4>New Task</h4>
+    <TodoItemForm OnItemAdded="@ItemChanged"/>
+</div>
+
+<div class="border p-3 mt-4 mx-auto" style="max-width:700px;">
+    <h4>Pending</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Task</th>
+                <th scope="col" colspan="2">Actions</th>
+
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var todo in Todos)
+        {
+            @if (!todo.Completed)
+            {
+                
+                <tr>
+                        <td style="width: 60%">@todo.Text</td>
+                    <td>
+                        <button class="btn btn-success" onclick="@(() => CompleteItem(todo))"><i class="bi bi-check"></i> Complete</button>
+                    </td>
+                    <td> 
+                        <button class="btn btn-danger" onclick="@(() => DeleteItem(todo))"><i class="bi bi-trash"></i> Delete</button>
+                    </td>                    
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+</div>
+
+<div class="border p-3 mt-4 mx-auto" style="max-width:700px;">
+    <h4>Completed</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Task</th>
+                <th scope="col" colspan="2">Actions</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+        @foreach (var todo in Todos)
+        {            
+            if (todo.Completed)
+            {
+                <tr>
+                    <td style="width: 60%">@todo.Text</td>
+                    <td><button class="btn btn-warning" onclick="@(() => UncompleteItem(todo))"><span class="bi bi-arrow-counterclockwise"></span> Undo</button></td>
+                    <td><button class="btn btn-danger" onclick="@(() => DeleteItem(todo))"><span class="bi bi-trash"></span> Delete</button></td>
+                </tr>
+            }            
+        }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private IList<ToDoItem> Todos { get; set; } = new List<ToDoItem>();
+
+    protected override void OnInitialized()
+    {
+        Todos = _todoService.GetAll().ToList();
+    }
+
+    public string ItemClass(ToDoItem item)
+    {
+        return item.Completed ? "item-completed" : "";
+    }
+
+    public void ItemChanged()
+    {
+        Todos = _todoService.GetAll().ToList();
+        StateHasChanged();
+    }
+
+    public void DeleteItem(ToDoItem item)
+    {
+        _todoService.Delete(item);
+        ItemChanged();
+    }
+
+    public void CompleteItem(ToDoItem item)
+    {
+        _todoService.Complete(item);
+        ItemChanged();
+    }
+
+    public void UncompleteItem(ToDoItem item)
+    {
+        _todoService.Uncomplete(item);
+        ItemChanged();
+    }
+
+}
